@@ -23,7 +23,7 @@ public class WordFrequency {
      */
     public static void main(String[] args) throws FileNotFoundException {
         
-        File inputFile = new File("words.txt");
+        File inputFile = new File(args[0]);
         
         Scanner in = null;
         
